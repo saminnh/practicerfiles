@@ -308,7 +308,6 @@ grid.arrange(RPlot1,MPlot1)
 # plot(log(cdata$Mortality.cons.value),cdata$percent.pop.lost)
 # cmod<-lm(cdata$ercent.pop.lost~cdata$Mortality.cons.value)
 # summary(cmod)
-# abline(cmod)
 
 #Find problem cells
 #which(data$Year>data$Start.year)
@@ -318,3 +317,5 @@ grid.arrange(RPlot1,MPlot1)
 #styear<-as.numeric(substr(data$Start.year,1,4))
 #new<-cbind(pubyear,styear)
 #which(new[,1]<new[,2])
+
+#This is me adding new text on 2-08
